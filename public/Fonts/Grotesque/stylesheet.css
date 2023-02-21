@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'General Grotesque Mono';
+    src: url('GeneralGrotesqueMono-Regular.eot');
+    src: local('General Grotesque Mono Regular'), local('GeneralGrotesqueMono-Regular'),
+        url('GeneralGrotesqueMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Regular.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Regular.woff') format('woff'),
+        url('GeneralGrotesqueMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono Book';
+    src: url('GeneralGrotesqueMono-Book.eot');
+    src: local('General Grotesque Mono Book'), local('GeneralGrotesqueMono-Book'),
+        url('GeneralGrotesqueMono-Book.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Book.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Book.woff') format('woff'),
+        url('GeneralGrotesqueMono-Book.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono Demi';
+    src: url('GeneralGrotesqueMono-Demi.eot');
+    src: local('General Grotesque Mono Demi'), local('GeneralGrotesqueMono-Demi'),
+        url('GeneralGrotesqueMono-Demi.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Demi.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Demi.woff') format('woff'),
+        url('GeneralGrotesqueMono-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono';
+    src: url('GeneralGrotesqueMono-Bold.eot');
+    src: local('General Grotesque Mono Bold'), local('GeneralGrotesqueMono-Bold'),
+        url('GeneralGrotesqueMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Bold.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Bold.woff') format('woff'),
+        url('GeneralGrotesqueMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono';
+    src: url('GeneralGrotesqueMono-Heavy.eot');
+    src: local('General Grotesque Mono Heavy'), local('GeneralGrotesqueMono-Heavy'),
+        url('GeneralGrotesqueMono-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Heavy.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Heavy.woff') format('woff'),
+        url('GeneralGrotesqueMono-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono';
+    src: url('GeneralGrotesqueMono-Light.eot');
+    src: local('General Grotesque Mono Light'), local('GeneralGrotesqueMono-Light'),
+        url('GeneralGrotesqueMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Light.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Light.woff') format('woff'),
+        url('GeneralGrotesqueMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono XBold';
+    src: url('GeneralGrotesqueMono-XBold.eot');
+    src: local('General Grotesque Mono ExtraBold'), local('GeneralGrotesqueMono-XBold'),
+        url('GeneralGrotesqueMono-XBold.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-XBold.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-XBold.woff') format('woff'),
+        url('GeneralGrotesqueMono-XBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Grotesque Mono';
+    src: url('GeneralGrotesqueMono-Thin.eot');
+    src: local('General Grotesque Mono Thin'), local('GeneralGrotesqueMono-Thin'),
+        url('GeneralGrotesqueMono-Thin.eot?#iefix') format('embedded-opentype'),
+        url('GeneralGrotesqueMono-Thin.woff2') format('woff2'),
+        url('GeneralGrotesqueMono-Thin.woff') format('woff'),
+        url('GeneralGrotesqueMono-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+

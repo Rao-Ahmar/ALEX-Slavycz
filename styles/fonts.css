@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-XBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-Demi.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-Book.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Grotesque-Mono";
+  src: url("/Fonts/Grotesque/GeneralGrotesqueMono-Thin.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Eurostile";
+  src: url("/Fonts/Eurostile/eurostile-mn-extended-bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Eurostile";
+  src: url("/Fonts/Eurostile/Eurostile\ MN\ Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}

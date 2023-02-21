@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  cursor: url("/cursor.svg"), auto;
+  background-color: #f2f2f2;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.EZDrawer .EZDrawer__container {
+  box-shadow: none !important;
+}
+.drawers {
+  display: block;
+}
+.drawers-main {
+  width: 50% !important;
+  height: 100vh !important;
+  background-color: #f2f2f2 !important;
+}
+
+.Horizontal-Gallery::-webkit-scrollbar {
+  width: 0px;
+}
+.Detail-Link:hover img {
+  transform: scale(1);
+  cursor: url("/cursorWhite.svg"), auto;
+  transition: all 0.5s ease !important;
+}
+.Custom-Hover-Cursor {
+  cursor: url("/cursorWhite.svg"), auto !important;
+}
+.DeactiveImage {
+  opacity: 0;
+  transform: scale(1.03);
+  transition: opacity 400ms ease-in-out 0s, transform 400ms ease-in-out 0s;
+}
+.ActiveImage {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 400ms ease-in-out 0s, transform 400ms ease-in-out 0s;
+}
+.SliderDeActive {
+  display: none;
+  transition: opacity 400ms ease-in-out 0s, transform 400ms ease-in-out 0s;
+}
+.SliderActive {
+  display: block;
+  transition: opacity 400ms ease-in-out 0s, transform 400ms ease-in-out 0s;
+}
+.overflow-y-auto- {
+  overflow-y: auto !important;
+}
+.carousel-root,
+.carousel,
+.carousel-slider,
+.slider-wrapper,
+.axis-horizontal,
+.slider-wrapper ul {
+  width: 100% !important;
+  height: 100% !important;
+}
+.slider li {
+  min-width: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+.control-dots {
+  display: none !important;
+}
+@media screen and (max-width: 900px) {
+  .drawers-main {
+    width: 100% !important;
+  }
+  .drawers {
+    display: none;
+  }
+}
