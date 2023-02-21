@@ -212,9 +212,7 @@ const Navigation: React.FC = () => {
                   );
                 })}
               </div>
-              <div className="flex justify-start items-center md:gap-12 gap-5">
                 <TimerWidget />
-              </div>
             </div>
           </div>
         </Drawer>

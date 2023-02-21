@@ -15,7 +15,7 @@ const index: React.FC = () => {
           VideoType="video/mp4"
         />
       </div>
-      <div className="w-full h-[calc(100vh-54px)] overflow-hidden object-cover md:hidden block md:mt-0 -mt-8">
+      <div className="w-full h-screen object-cover md:hidden block md:mt-0 -mt-8">
         <ResponsiveVideo
           URL="/videos/mobile website animation.mp4"
           VideoType="video/mp4"
