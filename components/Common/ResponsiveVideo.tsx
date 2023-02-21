@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 
 interface Props {
@@ -13,12 +13,16 @@ const ResponsiveVideo: React.FC<Props> = ({
   control = false,
 }: Props) => {
   const Router = useRouter();
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    videoRef && videoRef?.current.play();
+  }, []);
+
   return (
     <video
       loop={true}
-      playsInline
-      autoPlay
-      muted
+      ref={videoRef}
       controls={control}
       className={`w-full h-full ${
         Router.pathname === "/" ? "object-cover" : "object-contain"
