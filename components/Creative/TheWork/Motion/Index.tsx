@@ -37,7 +37,7 @@ const Index: React.FC = () => {
                 <div className="w-full md:h-[287.5px] sm:h-[400px] h-[220px] relative overflow-hidden">
                   <Image src={item.URL} alt="" fill className="object-cover" />
                 </div>
-                <p className="font-Grotesque font-[300] md:text-[13px] text-[10px] leading-[30px] text-black tracking-[5%]">
+                <p className="font-Grotesque font-[300] md:text-[16px] text-[11px] leading-[30px] text-black tracking-[5%]">
                   {item.Title}
                 </p>
               </div>

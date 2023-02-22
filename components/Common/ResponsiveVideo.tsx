@@ -13,7 +13,7 @@ const ResponsiveVideo: React.FC<Props> = ({
   control = false,
 }: Props) => {
   const Router = useRouter();
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const videoRef = useRef<HTMLVideoElement | any>(null);
 
   useEffect(() => {
     videoRef && videoRef?.current.play();

@@ -19,7 +19,7 @@ function Navbar() {
           <Link
             key={index}
             href={item.Route}
-            className={`font-Grotesque md:text-[13px] text-[10px] md:leading-[45px] leading-[20px] tracking-[5%] Custom-Hover-Cursor ${
+            className={`font-Grotesque md:text-[16px] text-[11px] md:leading-[45px] leading-[20px] tracking-[5%] Custom-Hover-Cursor ${
               Router.pathname === item.Route || Path(item.Name)
                 ? "text-black font-normal"
                 : "text-offGray font-[200]"

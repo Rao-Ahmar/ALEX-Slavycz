@@ -87,7 +87,7 @@ const Index: React.FC<Props> = ({
         >
           <div className="w-full md:h-[calc(100%-40px)] h-[calc(100%-70px)] overflow-auto md:pb-7 md:pt-0 pt-4">
             <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase">
-              About
+              The Agency 6.0
             </h3>
             <p className="font-Grotesque font-[300] text-black md:text-[16px] text-[10px] md:leading-[30px] leading-[18px] md:tracking-[1.5%] tracking-[7.5%] md:mt-0 mt-4">
               The ASCC World is a Shanghai based Creative Agency established in
@@ -105,7 +105,7 @@ const Index: React.FC<Props> = ({
               artists as well as introducing internationally recognized talents
               into the Asian market.
             </p>
-            <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase mt-6">
+            <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase mt-4">
               Contact
             </h3>
             <p className="font-Grotesque font-[300] text-black md:text-[16px] text-[10px] md:leading-[30px] leading-[18px] md:tracking-[1.5%] tracking-[7.5%] md:mt-0 mt-4">
@@ -140,7 +140,7 @@ const Index: React.FC<Props> = ({
             </div>
           </div>
           <div
-            className={`w-full md:h-[40px] h-[70px] flex justify-center items-center md:items-start flex-col`}
+            className={`w-full md:h-[40px] h-[70px] flex justify-center items-center mt-3 md:mt-0 md:items-start flex-col`}
           >
             <TimerWidget />
           </div>
