@@ -90,7 +90,7 @@ const Gallery: React.FC<Props> = ({ GalleryData, BaseRoute }: Props) => {
                 className="w-full h-full md:hidden block"
               />
             </Link>
-            <p className="font-Grotesque font-[200] md:text-[16px] text-[11px] md:h-[20px] leading-[18px] text-black tracking-[0.5%] uppercase md:mt-1.5 mt-1">
+            <p className="font-Grotesque font-[200] md:text-[13px] text-[11px] md:h-[20px] leading-[18px] text-black tracking-[0.5%] uppercase md:mt-1.5 mt-1">
               {item.Text}
             </p>
           </div>

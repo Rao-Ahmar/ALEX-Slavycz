@@ -22,7 +22,7 @@ const Single: React.FC<Props> = ({ Title, Img, Height }: Props) => {
           className="object-cover transition-all duration-300 ease-in-out"
         />
       </Link>
-      <p className="font-Grotesque font-[300] md:text-[16px] text-[12px] leading-[20px] text-black md:mt-3 mt-2">
+      <p className="font-Grotesque font-[300] md:text-[13px] text-[11px] leading-[20px] text-black md:mt-3 mt-2">
         {Title}
       </p>
     </div>

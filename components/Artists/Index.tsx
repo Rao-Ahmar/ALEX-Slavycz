@@ -31,7 +31,7 @@ const Index: React.FC = () => {
         <div className="flex justify-center items-center md:gap-10 gap-4">
           <button
             onClick={() => Set_ArtistWork(true)}
-            className={`font-Grotesque text-[12px] bg-transparent Custom-Hover-Cursor ${
+            className={`font-Grotesque text-[13px] bg-transparent Custom-Hover-Cursor ${
               ArtistWork ? "text-black md:font-normal" : "text-Gray font-[300]"
             }  uppercase text-center`}
           >
@@ -39,7 +39,7 @@ const Index: React.FC = () => {
           </button>
           <button
             onClick={() => Set_ArtistWork(false)}
-            className={`font-Grotesque  text-[12px] leading-[20px] bg-transparent Custom-Hover-Cursor ${
+            className={`font-Grotesque  text-[13px] leading-[20px] bg-transparent Custom-Hover-Cursor ${
               !ArtistWork ? "text-black md:font-normal" : "text-Gray font-[300]"
             }  uppercase text-center`}
           >

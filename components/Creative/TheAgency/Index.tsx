@@ -87,9 +87,9 @@ const Index: React.FC<Props> = ({
         >
           <div className="w-full md:h-[calc(100%-40px)] h-[calc(100%-70px)] overflow-auto md:pb-7 md:pt-0 pt-4">
             <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase">
-              The Agency 6.0
+              About
             </h3>
-            <p className="font-Grotesque font-[300] text-black md:text-[16px] text-[10px] md:leading-[30px] leading-[18px] md:tracking-[1.5%] tracking-[7.5%] md:mt-0 mt-4">
+            <p className="font-Grotesque font-[300] text-black md:text-[13px] text-[10px] md:leading-[30px] leading-[18px] md:tracking-[1.5%] tracking-[7.5%] md:mt-0 mt-4">
               The ASCC World is a Shanghai based Creative Agency established in
               2018 by Alex Slavycz and Huang Jiaqi. We pride ourselves in having
               the unique ability to support international brands seamlessly
@@ -108,7 +108,7 @@ const Index: React.FC<Props> = ({
             <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase mt-4">
               Contact
             </h3>
-            <p className="font-Grotesque font-[300] text-black md:text-[16px] text-[10px] md:leading-[30px] leading-[18px] md:tracking-[1.5%] tracking-[7.5%] md:mt-0 mt-4">
+            <p className="font-Grotesque font-[300] text-black md:text-[13px] text-[10px] md:leading-[30px] leading-[18px] md:tracking-[1.5%] tracking-[7.5%] md:mt-0 mt-4">
               1234 Yandang Rd.
               <br />
               Xuhui District
@@ -120,13 +120,13 @@ const Index: React.FC<Props> = ({
               <br />
               careers@theascc.com
             </p>
-            <div className="flex md:gap-8 gap-4 mt-2 md:pb-0">
+            <div className="flex md:gap-6 gap-5 mt-2 md:pb-0">
               {Data.SocialIcons.map((item: any, index: number) => {
                 return (
                   <a
                     key={index}
                     href={item.href}
-                    className="md:w-[32px] w-[20px] md:h-[32px] h-[20px] relative"
+                    className="md:w-[35px] w-[27px] md:h-[35px] h-[27px] relative"
                   >
                     <Image
                       src={item.SVG}

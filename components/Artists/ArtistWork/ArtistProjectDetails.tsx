@@ -88,11 +88,11 @@ function Details() {
           {Name}
         </h1>
         <div className="flex justify-center items-center md:gap-10 gap-4">
-          <p className="font-Grotesque font-normal md:text-[16px] text-[12px] uppercase">
+          <p className="font-Grotesque font-normal md:text-[13px] text-[10px] uppercase">
             {Title}
           </p>
           <Link
-            className="font-Grotesque font-[300] md:text-[16px] text-[12px] uppercase Custom-Hover-Cursor"
+            className="font-Grotesque font-[300] md:text-[13px] text-[10px] uppercase Custom-Hover-Cursor"
             href={{
               pathname: `/artist/${Name}`,
               query: { Title: Title, Tab: "bio" },
@@ -166,7 +166,7 @@ function Details() {
             <SVG.Next />
           </button>
         </div>
-        <p className="font-Grotesque font-[200] text-black md:text-[16px] text-[11px] leading-[20px] tracking-[0.5%] uppercase">
+        <p className="font-Grotesque font-[200] text-black md:text-[13px] text-[11px] leading-[20px] tracking-[0.5%] uppercase">
           {ProjectName}
         </p>
         <button

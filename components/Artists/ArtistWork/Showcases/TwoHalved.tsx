@@ -41,7 +41,7 @@ const TwoHalved: React.FC<Props> = ({
           />
         </Link>
       </div>
-      <p className="font-Grotesque font-[300] md:text-[16px] text-[12px] leading-[20px] text-black md:mt-3 mt-2">
+      <p className="font-Grotesque font-[300] md:text-[13px] text-[11px] leading-[20px] text-black md:mt-3 mt-2">
         {Title}
       </p>
     </div>

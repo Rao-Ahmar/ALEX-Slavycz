@@ -139,7 +139,7 @@ function Details() {
             <SVG.Next />
           </button>
         </div>
-        <p className="font-Grotesque font-[200] text-black md:text-[16px] text-[11px] leading-[20px] tracking-[0.5%] uppercase">
+        <p className="font-Grotesque font-[200] text-black md:text-[13px] text-[11px] leading-[20px] tracking-[0.5%] uppercase">
           {Title}
         </p>
         <button
