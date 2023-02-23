@@ -58,15 +58,19 @@ const TimerWidget: React.FC = () => {
       {times.map(({ label, time }, k) => {
         return (
           <div
-            className="flex justify-center items-start flex-col w-full flex-wrap"
+            className="flex justify-center items-start flex-col flex-wrap w-[48px]"
             key={k}
           >
+            <div className="flex justify-center items-start flex-col w-fit flex-wrap">
+
             <h4 className="font-Grotesque md:font-normal lg:text-[13px] text-[10px] leading-[20px] text-black text-start uppercase whitespace-nowrap">
               {label}
             </h4>
             <p className="font-Grotesque xxl:w-[58px] lg:w-[50px] w-[30px] font-[200] lg:text-[13px] text-[10px] leading-[20px] text-black text-start">
               {time}
             </p>
+            </div>
+
           </div>
         );
       })}
