@@ -14,7 +14,7 @@ const TimerWidget: React.FC = () => {
 
   const createTimes = () => {
     setTimes([
-      {
+      {  
         label: "Shanghai",
         time: timeForZone("Asia/Shanghai"),
       },

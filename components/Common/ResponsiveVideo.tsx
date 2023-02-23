@@ -18,7 +18,7 @@ const ResponsiveVideo: React.FC<Props> = ({
   useEffect(() => {
     setTimeout(() => {
       videoRef && videoRef?.current.play();
-    }, 2000)
+    }, 2000)  
   }, []);
 
   return (
