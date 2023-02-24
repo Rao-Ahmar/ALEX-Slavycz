@@ -14,7 +14,7 @@ const Bio: React.FC = () => {
           />
         </div>
         <div className="md:w-[calc(100%-372px)] flex justify-center items-center flex-col">
-          <p className="font-Grotesque font-[300] md:text-[13px] text-[10px] md:leading-[27px] leading-[20px] tracking-[0.5%] ">
+          <p className="font-Grotesque font-[300] md:text-[13px] text-[11px] md:leading-[27px] leading-[20px] tracking-[0.5%] ">
             Alex Slavycz is a Canadian born creative director. With extensive
             working expertise in the fields of creative & artistic direction,
             fashion styling, visual merchandising & design, Alex is truly a

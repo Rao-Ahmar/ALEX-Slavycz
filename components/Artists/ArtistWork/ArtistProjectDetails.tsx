@@ -18,6 +18,7 @@ function Details() {
   const [SliderLength, SetSliderLength] = useState<any>([]);
   const [Name, setName] = useState("");
   const [Title, setTitle] = useState<string>("");
+  const [ArtistWork, Set_ArtistWork] = useState(true);
 
   const SliderRef = useRef<any>();
 
@@ -88,11 +89,16 @@ function Details() {
           {Name}
         </h1>
         <div className="flex justify-center items-center md:gap-10 gap-4">
-          <p className="font-Grotesque font-normal md:text-[13px] text-[10px] uppercase">
+          <p className={`font-Grotesque md:text-[13px] text-[11px] bg-transparent Custom-Hover-Cursor ${
+              ArtistWork ? "text-black md:font-normal" : "text-Gray font-[300]"
+            }  uppercase text-center`}>
             {Title}
           </p>
           <Link
-            className="font-Grotesque font-[300] md:text-[13px] text-[10px] uppercase Custom-Hover-Cursor"
+            onClick={() => Set_ArtistWork(true)}
+            className={`font-Grotesque md:text-[13px] text-[11px] bg-transparent Custom-Hover-Cursor ${
+              !ArtistWork ? "text-black md:font-normal" : "text-Gray font-[300]"
+            } text-center`}
             href={{
               pathname: `/artist/${Name}`,
               query: { Title: Title, Tab: "bio" },
@@ -155,7 +161,7 @@ function Details() {
             <SVG.Back />
           </button>
           <div className="md:w-[56px] w-[25px] md:mx-0 mx-[26px] flex justify-center items-center">
-            <p className="font-Eurostile font-normal md:text-[14px] text-[10px] text-Gray md:leading-[60px] leading-[45px] tracking-[5%]">
+            <p className="font-Eurostile font-normal md:text-[13px] text-[11px] text-Gray md:leading-[60px] leading-[45px] tracking-[5%]">
               {current + 1 + "/" + SliderLength?.length}
             </p>
           </div>

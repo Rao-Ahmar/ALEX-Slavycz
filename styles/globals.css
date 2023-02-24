@@ -84,3 +84,21 @@ body {
     display: none;
   }
 }
+
+
+.timer{
+  display: flex; 
+  padding-bottom: 2.75rem; 
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  gap: 1.25rem;
+
+}
+  @media (min-width: 768px) {
+    .timer{
+    padding-bottom: 0; 
+    justify-content: flex-start; 
+    width: auto;
+    }
+  }

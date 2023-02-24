@@ -54,21 +54,21 @@ const TimerWidget: React.FC = () => {
     };
   }, [setTimes]);
   return (
-    <footer className="md:w-auto w-full flex md:justify-start justify-between items-center pb-11 md:pb-0 xl:gap-[3rem] md:gap-[1.5rem] gap-5">
+    <footer className="md:w-auto w-full flex justify-start items-center gap-5">
       {times.map(({ label, time }, k) => {
         return (
           <div
-            className="flex justify-center items-start flex-col flex-wrap w-[48px]"
+            className="flex justify-center items-start flex-col flex-wrap"
             key={k}
           >
             <div className="flex justify-center items-start flex-col w-fit flex-wrap">
 
-            <h4 className="font-Grotesque md:font-normal lg:text-[13px] text-[10px] leading-[20px] text-black text-start uppercase whitespace-nowrap">
-              {label}
-            </h4>
-            <p className="font-Grotesque xxl:w-[58px] lg:w-[50px] w-[30px] font-[200] lg:text-[13px] text-[10px] leading-[20px] text-black text-start">
-              {time}
-            </p>
+              <h4 className="font-Grotesque md:font-normal lg:text-[13px] text-[11px] leading-[20px] text-black text-start uppercase whitespace-nowrap">
+                {label}
+              </h4>
+              <p className="font-Grotesque xxl:w-[58px] lg:w-[50px] w-[30px] font-[200] lg:text-[13px] text-[10px] leading-[20px] text-black text-start">
+                {time}
+              </p>
             </div>
 
           </div>

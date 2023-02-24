@@ -88,25 +88,25 @@ const Navigation: React.FC = () => {
   const [ActiveImageIndexForCreative, SetCreativeIndex] = useState<number>(0);
   const [ActiveImageIndexForArtist, SetArtistIndex] = useState<number>(0);
 
-  useEffect(() => {
-    if (
-      OpenAbout ||
-      OpenCreative ||
-      OpenArtists ||
-      Router.pathname === "/" ||
-      Router.query.editorial ||
-      Router.query.advertising ||
-      Router.query.branding ||
-      Router.query.ProjectName
-    )
-      document.body.style.overflow = "hidden";
-    else document.body.style.overflow = "auto";
+  // useEffect(() => {
+  //   if (
+  //     OpenAbout ||
+  //     OpenCreative ||
+  //     OpenArtists ||
+  //     Router.pathname === "/" ||
+  //     Router.query.editorial ||
+  //     Router.query.advertising ||
+  //     Router.query.branding ||
+  //     Router.query.ProjectName
+  //   )
+  //     document.body.style.overflow = "hidden";
+  //   else document.body.style.overflow = "auto";
 
-    return () => {
-      // 👇️ optionally remove styles when component unmounts
-      document.body.style.overflow = "auto";
-    };
-  }, [OpenAbout, OpenCreative, OpenArtists, Router]);
+  //   return () => {
+  //     // 👇️ optionally remove styles when component unmounts
+  //     document.body.style.overflow = "auto";
+  //   };
+  // }, [OpenAbout, OpenCreative, OpenArtists, Router]);
 
   return (
     <React.Fragment>
@@ -173,7 +173,7 @@ const Navigation: React.FC = () => {
                 CheckPhone === "Phone"
                   ? "h-[calc(100vh-120px)]"
                   : "h-[calc(100vh-54px)]"
-              } flex justify-between items-start flex-col md:px-10 px-4 pb-7`}
+              } flex justify-between items-start flex-col md:px-10 px-4`}
             >
               <div className="w-full flex justify-start items-start flex-col md:gap-6 gap-[18px] pt-2 mt-8">
                 {Data.Creative.NavItems.map((item: any, index: number) => {
@@ -323,7 +323,7 @@ const Navigation: React.FC = () => {
             </button>
           </div>
           <div
-            className={`w-full md:h-[calc(100vh-100px)] h-[calc(100vh-54px)] flex justify-start items-end flex-col md:px-10 px-4 pb-4 pt-2 overflow-y-auto- md:gap-[20px] gap-[8px] bg-transparent`}
+            className={`w-full md:h-[calc(100vh-100px)] h-[calc(100vh-54px)] flex justify-start items-end flex-col md:px-10 px-4 pb-4 pt-2 md:gap-[20px] gap-[8px] bg-transparent`}
           >
             {Data.Artist.NavItems.map((item: any, index: number) => {
               return (
