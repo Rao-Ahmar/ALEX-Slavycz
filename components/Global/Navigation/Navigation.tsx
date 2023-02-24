@@ -173,7 +173,7 @@ const Navigation: React.FC = () => {
                 CheckPhone === "Phone"
                   ? "h-[calc(100vh-120px)]"
                   : "h-[calc(100vh-54px)]"
-              } flex justify-between items-start flex-col md:px-10 px-4`}
+              } flex justify-between items-start flex-col md:px-10 px-4 pb-7`}
             >
               <div className="w-full flex justify-start items-start flex-col md:gap-6 gap-[18px] pt-2 mt-8">
                 {Data.Creative.NavItems.map((item: any, index: number) => {
@@ -212,7 +212,9 @@ const Navigation: React.FC = () => {
                   );
                 })}
               </div>
+              <div className={`w-full md:h-[40px] h-[70px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}>
                 <TimerWidget />
+              </div>
             </div>
           </div>
         </Drawer>
