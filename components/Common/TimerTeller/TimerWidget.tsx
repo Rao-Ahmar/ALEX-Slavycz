@@ -66,7 +66,7 @@ const TimerWidget: React.FC = () => {
               <h4 className="font-Grotesque md:font-normal lg:text-[13px] text-[11px] leading-[20px] text-black text-start uppercase whitespace-nowrap">
                 {label}
               </h4>
-              <p className="font-Grotesque xxl:w-[58px] lg:w-[50px] w-[30px] font-[200] lg:text-[13px] text-[10px] leading-[20px] text-black text-start">
+              <p className="font-Grotesque lg:w-[39px] w-[30px] font-[200] lg:text-[13px] text-[10px] leading-[20px] text-black text-start">
                 {time}
               </p>
             </div>
