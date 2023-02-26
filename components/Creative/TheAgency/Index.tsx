@@ -66,7 +66,7 @@ const Index: React.FC<Props> = ({
             }}
             className={`md:hidden font-Eurostile font-[400] md:text-[20px] text-[12px] leading-[18.4px] tracking-[5%] uppercase inline-block text-black after:content-[''] after:block after:h-[2px] after:bg-black after:transition-all after:duration-150 after:w-0 Custom-Hover-Cursor`}
           >
-            CREATIVE
+            ARTISTS
           </button>
           <button
             onClick={() => {
