@@ -19,6 +19,8 @@ main::-webkit-scrollbar {
 body {
   cursor: url("/cursor.svg"), auto;
   background-color: #f2f2f2;
+  position: fixed;
+  height: 100%;
   --ion-safe-area-top: env(safe-area-inset-top);
   --ion-safe-area-top: constant(safe-area-inset-top);
   --ion-safe-area-bottom: env(safe-area-inset-bottom);
