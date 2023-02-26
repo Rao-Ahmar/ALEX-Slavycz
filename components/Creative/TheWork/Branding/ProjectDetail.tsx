@@ -70,7 +70,7 @@ function Details() {
     <div
       className={`w-full md:h-[calc(100vh-100px)] ${
         CheckPhone === "Phone"
-          ? "h-[calc(100vh-120px)]"
+          ? "h-[calc(100vh-54px)]"
           : "h-[calc(100vh-54px)]"
       } md:overflow-hidden bg-OffWhite`}
     >
