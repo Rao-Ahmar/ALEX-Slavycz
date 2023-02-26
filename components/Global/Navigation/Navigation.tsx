@@ -212,7 +212,7 @@ const Navigation: React.FC = () => {
                   );
                 })}
               </div>
-              <div className={`w-full md:h-[40px] h-[70px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}>
+              <div className={`w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}>
                 <TimerWidget />
               </div>
             </div>
