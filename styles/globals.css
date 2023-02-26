@@ -12,8 +12,8 @@ html {
 body {
   cursor: url("/cursor.svg"), auto;
   background-color: #f2f2f2;
-  padding-bottom: env(safe-area-inset-bottom);
-  padding-top: env(safe-area-inset-top);
+  --ion-safe-area-top: env(safe-area-inset-top);
+  --ion-safe-area-bottom: env(safe-area-inset-bottom);
 }
 .EZDrawer .EZDrawer__container {
   box-shadow: none !important;
