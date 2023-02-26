@@ -83,7 +83,7 @@ const Index: React.FC<Props> = ({
             CheckPhone === "Phone"
               ? "h-[calc(100vh-120px)]"
               : "h-[calc(100vh-54px)]"
-          } overflow-y-auto overflow-x-hidden md:flex justify-between items-center flex-col md:px-10 px-4 pb-7 md:mt-0 mt-4`}
+          } overflow-x-hidden md:flex justify-between items-center flex-col md:px-10 px-4 pb-7 md:mt-0 mt-4`}
         >
           <div className="w-full md:h-[calc(100%-40px)] h-[calc(100%-70px)] overflow-auto md:pb-7 md:pt-0 pt-4">
             <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase">
