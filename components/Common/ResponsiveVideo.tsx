@@ -24,6 +24,8 @@ const ResponsiveVideo: React.FC<Props> = ({
   return (
     <video
       loop={true}
+      muted
+      autoPlay
       ref={videoRef}
       controls={control}
       className={`w-full h-full ${

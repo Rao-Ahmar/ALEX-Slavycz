@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
 }
 
-.container::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 

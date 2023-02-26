@@ -7,7 +7,7 @@ const index: React.FC = () => {
 
   return (
     <div
-      className={`container w-full md:h-[calc(100vh-100px)] h-[calc(100vh-54px)] overflow-hidden bg-OffWhite`}
+      className={`w-full md:h-[calc(100vh-100px)] h-[calc(100vh-54px)] overflow-hidden bg-OffWhite`}
     >
       <div className="w-full h-full object-cover md:block hidden">
         <ResponsiveVideo

@@ -10,7 +10,7 @@ interface Props {
 
 const Single: React.FC<Props> = ({ Title, Img, Height }: Props) => {
   return (
-    <div className="w-full container flex justify-center items-start flex-col">
+    <div className="w-full flex justify-center items-start flex-col">
       <Link
         href={``}
         className={`md:[50%] w-full ${Height} h-[422px] relative Detail-Link overflow-hidden`}

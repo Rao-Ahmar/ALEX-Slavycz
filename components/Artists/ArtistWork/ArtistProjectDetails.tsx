@@ -82,7 +82,7 @@ function Details() {
         CheckPhone === "Phone"
           ? "h-[calc(100vh-130px)]"
           : "h-[calc(100vh-54px)]"
-      } container md:relative md:z-[100] md:-mt-[50px] mt-[54px]`}
+      } md:relative md:z-[100] md:-mt-[50px] mt-[54px]`}
     >
       <div className="md:h-[65px] h-[50px] flex justify-center items-center flex-col">
         <h1 className="font-Eurostile font-[700] md:text-[32px] text-[24px] md:leading-[45px] leading-[25px] tracking-[-2%] text-black uppercase text-center">

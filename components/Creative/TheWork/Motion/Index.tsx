@@ -8,7 +8,7 @@ import { Data } from "../../../../JSON/Data";
 const Index: React.FC = () => {
   const Router = useRouter();
   return (
-    <div className="container w-full min-h-[calc(100vh-140px)] bg-OffWhite">
+    <div className="w-full min-h-[calc(100vh-140px)] bg-OffWhite">
       <div className="w-full max-w-[1360px] m-auto md:px-8 px-4 pb-8 flex justify-start items-center flex-col">
         <Navbar />
         {/* Video */}
