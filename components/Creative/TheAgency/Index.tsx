@@ -126,12 +126,15 @@ const Index: React.FC<Props> = ({
                   <a
                     key={index}
                     href={item.href}
-                    className="md:w-[35px] w-[27px] md:h-[35px] h-[27px] relative"
+                    className="md:w-[32px] w-[27px] md:h-[32px] h-[27px] relative"
                   >
                     <Image
                       src={item.SVG}
                       alt=""
-                      fill
+                      layout="fixed"
+                      width={35}
+                      height={35}
+                      quality={100}
                       className="object-cover"
                     />
                   </a>

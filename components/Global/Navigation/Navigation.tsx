@@ -189,7 +189,7 @@ const Navigation: React.FC = () => {
                           setOpenAbout(true);
                         }}
                         onMouseOver={() => SetCreativeIndex(index)}
-                        className="font-Eurostile font-[700] md:text-[25px] text-[16px] leading-[16px] tracking-[-2%] text-black uppercase text-start Custom-Hover-Cursor"
+                        className="font-Eurostile font-[700] md:text-[25px] text-[16px] leading-[16px] tracking-[-2%] text-black uppercase pt-2 text-start Custom-Hover-Cursor"
                       >
                         {item.Name}
                       </button>
