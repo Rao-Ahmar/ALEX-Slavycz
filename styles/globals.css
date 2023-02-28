@@ -16,12 +16,15 @@ html {
   height: 0px;
 }
 
-body {
-  cursor: url("/cursor.svg"), auto;
-  background-color: #f2f2f2;
+.iphone-area {
   --ion-safe-area-top: env(safe-area-inset-top);
   --ion-safe-area-top: constant(safe-area-inset-top);
   --ion-safe-area-bottom: env(safe-area-inset-bottom);
+}
+
+body {
+  cursor: url("/cursor.svg"), auto;
+  background-color: #f2f2f2;
   min-height: -webkit-fill-available;
 }
 .EZDrawer .EZDrawer__container {

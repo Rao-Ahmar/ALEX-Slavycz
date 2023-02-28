@@ -66,30 +66,33 @@ const Navigation: React.FC = () => {
   };
 
   useEffect(() => {
-    if (
-      OpenAbout ||
-      OpenCreative ||
-      OpenArtists ||
-      Router.pathname === "/" ||
-      Router.query.editorial ||
-      Router.query.advertising ||
-      Router.query.branding ||
-      Router.query.ProjectName
-    )
-      document.body.style.overflow = "hidden";
-    else document.body.style.overflow = "auto";
-
-    return () => {
-      // 👇️ optionally remove styles when component unmounts
-      document.body.style.overflow = "auto";
-    };
-
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", controlNavbar);
+    setTimeout(() => {
+      if (
+        OpenAbout ||
+        OpenCreative ||
+        OpenArtists ||
+        Router.pathname === "/" ||
+        Router.query.editorial ||
+        Router.query.advertising ||
+        Router.query.branding ||
+        Router.query.ProjectName
+      )
+        document.body.style.overflow = "hidden";
+      else document.body.style.overflow = "auto";
+  
       return () => {
-        window.removeEventListener("scroll", controlNavbar);
-      };
-    }
+        // 👇️ optionally remove styles when component unmounts
+        document.body.style.overflow = "auto";
+      };      
+    }, 2000);
+
+
+    // if (typeof window !== "undefined") {
+    //   window.addEventListener("scroll", controlNavbar);
+    //   return () => {
+    //     window.removeEventListener("scroll", controlNavbar);
+    //   };
+    // }
   });
 
   useEffect(() => {
@@ -113,7 +116,7 @@ const Navigation: React.FC = () => {
   return (
     <React.Fragment>
       <div
-        className={`w-full bg-OffWhite md:h-[100px] h-[54px] md:px-10 px-4 md:py-7 ${
+        className={`iphone-area w-full bg-OffWhite md:h-[100px] h-[54px] md:px-10 px-4 md:py-7 ${
           Router.query.ProjectName ? "md:flex hidden" : "flex"
         } justify-between items-center sticky top-0 z-10 transition-all duration-500 ease-linear`}
       >
