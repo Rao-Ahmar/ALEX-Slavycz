@@ -106,9 +106,9 @@ const Navigation: React.FC = () => {
   const [ActiveImageIndexForCreative, SetCreativeIndex] = useState<number>(0);
   const [ActiveImageIndexForArtist, SetArtistIndex] = useState<number>(0);
 
-  // useEffect(() => {
+  useEffect(() => {
 
-  // }, [OpenAbout, OpenCreative, OpenArtists, Router]);
+  }, [OpenAbout, OpenCreative, OpenArtists, Router]);
 
   return (
     <React.Fragment>
