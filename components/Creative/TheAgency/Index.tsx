@@ -143,7 +143,7 @@ const Index: React.FC<Props> = ({
             </div>
           </div>
           <div
-            className={`w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}
+            className={ `${CheckPhone === "Phone" ? "pb-7" : "pb-0"} w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}
           >
             <TimerWidget />
           </div>
