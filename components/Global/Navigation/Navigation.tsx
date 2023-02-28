@@ -66,6 +66,24 @@ const Navigation: React.FC = () => {
   };
 
   useEffect(() => {
+    if (
+      OpenAbout ||
+      OpenCreative ||
+      OpenArtists ||
+      Router.pathname === "/" ||
+      Router.query.editorial ||
+      Router.query.advertising ||
+      Router.query.branding ||
+      Router.query.ProjectName
+    )
+      document.body.style.overflow = "hidden";
+    else document.body.style.overflow = "auto";
+
+    return () => {
+      // 👇️ optionally remove styles when component unmounts
+      document.body.style.overflow = "auto";
+    };
+
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", controlNavbar);
       return () => {
@@ -89,23 +107,7 @@ const Navigation: React.FC = () => {
   const [ActiveImageIndexForArtist, SetArtistIndex] = useState<number>(0);
 
   // useEffect(() => {
-  //   if (
-  //     OpenAbout ||
-  //     OpenCreative ||
-  //     OpenArtists ||
-  //     Router.pathname === "/" ||
-  //     Router.query.editorial ||
-  //     Router.query.advertising ||
-  //     Router.query.branding ||
-  //     Router.query.ProjectName
-  //   )
-  //     document.body.style.overflow = "hidden";
-  //   else document.body.style.overflow = "auto";
 
-  //   return () => {
-  //     // 👇️ optionally remove styles when component unmounts
-  //     document.body.style.overflow = "auto";
-  //   };
   // }, [OpenAbout, OpenCreative, OpenArtists, Router]);
 
   return (

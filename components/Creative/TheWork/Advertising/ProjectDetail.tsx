@@ -20,7 +20,7 @@ function Details() {
   };
 
   useEffect(() => {
-    const handleKeyDown = (event: any) => {
+      const handleKeyDown = (event: any) => {
       if (event.key === "ArrowRight") {
         SliderRef.current.onClickNext();
       }
