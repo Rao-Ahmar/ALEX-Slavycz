@@ -173,7 +173,7 @@ const Navigation: React.FC = () => {
             <div
               className={`w-full md:h-[calc(100vh-100px)] ${
                 CheckPhone === "Phone"
-                  ? "h-[calc(100vh-54px)]"
+                  ? "h-[calc(100vh-54px)] pb-7"
                   : "h-[calc(100vh-54px)]"
               } flex justify-between items-start flex-col md:px-10 px-4 pb-0 md:pb-7`}
             >
