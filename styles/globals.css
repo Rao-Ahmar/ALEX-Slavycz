@@ -22,6 +22,7 @@ body {
   --ion-safe-area-top: env(safe-area-inset-top);
   --ion-safe-area-top: constant(safe-area-inset-top);
   --ion-safe-area-bottom: env(safe-area-inset-bottom);
+  min-height: -webkit-fill-available;
 }
 .EZDrawer .EZDrawer__container {
   box-shadow: none !important;
