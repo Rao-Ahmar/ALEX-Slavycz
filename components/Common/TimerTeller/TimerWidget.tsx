@@ -54,7 +54,7 @@ const TimerWidget: React.FC = () => {
     };
   }, [setTimes]);
   return (
-    <footer className="md:w-auto w-full flex justify-start items-center gap-3 sm:gap-5">
+    <footer className="pb-safe pt-safe md:w-auto w-full flex justify-start items-center gap-3 sm:gap-5">
       {times.map(({ label, time }, k) => {
         return (
           <div

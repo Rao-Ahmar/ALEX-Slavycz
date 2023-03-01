@@ -79,7 +79,7 @@ const Index: React.FC<Props> = ({
           </button>
         </div>
         <div
-          className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe${
+          className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${
             CheckPhone === "Phone"
               ? "h-[calc(100vh-54px)]"
               : "h-[calc(100vh-54px)]"
