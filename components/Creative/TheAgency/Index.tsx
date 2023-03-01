@@ -80,7 +80,7 @@ const Index: React.FC<Props> = ({
           </button>
         </div>
         <div
-          className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${isMobile && browserName === 'safari' ? "pb-11" : "pb-2"} ${
+          className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${isMobile && browserName.toLowerCase() === 'safari' ? "pb-11" : "pb-2"} ${
             CheckPhone === "Phone"
               ? "h-[calc(100vh-54px)]"
               : "h-[calc(100vh-54px)]"
