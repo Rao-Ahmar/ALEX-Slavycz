@@ -173,9 +173,9 @@ const Navigation: React.FC = () => {
             <div
               className={`w-full md:h-[calc(100vh-100px)] ${
                 CheckPhone === "Phone"
-                  ? "h-[calc(100vh-54px)]"
+                  ? "h-[calc(100vh-54px)] pb-8 "
                   : "h-[calc(100vh-54px)]"
-              } flex justify-between items-start flex-col md:px-10 px-4 pb-0 md:pb-7`}
+              } flex justify-between items-start flex-col md:px-10 px-4 md:pb-2`}
             >
               <div className="w-full flex justify-start items-start flex-col md:gap-6 gap-[18px] pt-2 mt-8">
                 {Data.Creative.NavItems.map((item: any, index: number) => {
@@ -215,7 +215,7 @@ const Navigation: React.FC = () => {
                 })}
               </div>
               <div
-                className={ `${CheckPhone === "Phone" ? "pb-7" : "pb-0"} w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}
+                className={ `w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}
               >
                 <TimerWidget />
               </div>

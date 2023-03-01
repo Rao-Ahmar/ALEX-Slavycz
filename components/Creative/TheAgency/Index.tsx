@@ -81,9 +81,9 @@ const Index: React.FC<Props> = ({
         <div
           className={`w-full md:h-[calc(100vh-100px)] ${
             CheckPhone === "Phone"
-              ? "h-[calc(100vh-54px)] pb-7"
+              ? "h-[calc(100vh-54px)] pb-8"
               : "h-[calc(100vh-54px)]"
-          } overflow-x-hidden md:flex justify-between items-center flex-col md:px-10 px-4 pb-7 md:mt-0 mt-4`}
+          } overflow-x-hidden md:flex justify-between items-center flex-col md:px-10 px-4 md:pb-2 md:mt-0 mt-4`}
         >
           <div className="w-full md:h-[calc(100%-40px)] h-[calc(100%-70px)] overflow-auto md:pb-7 md:pt-0 pt-4">
             <h3 className="font-Eurostile font-semibold text-black md:text-[20px] text-[12px] md:leading-[55px] leading-[22px] tracking-[1.5%] uppercase">
@@ -143,7 +143,7 @@ const Index: React.FC<Props> = ({
             </div>
           </div>
           <div
-            className={ `${CheckPhone === "Phone" ? "pb-7" : "pb-0"} w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}
+            className={ `w-full md:h-[40px] h-[50px] flex items-center mt-3 md:mt-0 md:items-start flex-col`}
           >
             <TimerWidget />
           </div>
