@@ -174,7 +174,7 @@ const Navigation: React.FC = () => {
             <div
               className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${isMobile && browserName.toLowerCase() === 'safari' ? "pb-11" : "pb-2"} ${
                 CheckPhone === "Phone"
-                  ? "h-[calc(100vh-54px)]"
+                  ? "h-full"
                   : "h-[calc(100vh-54px)]"
               } flex justify-between items-start flex-col md:px-10 px-4 md:pb-2`}
             >
