@@ -82,7 +82,7 @@ const Index: React.FC<Props> = ({
         <div
           className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${isMobile && browserName.toLowerCase() === 'safari' ? "pb-11" : "pb-2"} ${
             CheckPhone === "Phone"
-              ? "h-[calc(100vh-54px)]"
+              ? "h-full"
               : "h-[calc(100vh-54px)]"
           } overflow-x-hidden md:flex justify-between items-center flex-col md:px-10 px-4 md:pb-2 md:mt-0 mt-4`}
         >
