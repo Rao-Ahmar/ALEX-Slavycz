@@ -9,6 +9,7 @@ import Image from "next/image";
 import { Data } from "../../../JSON/Data";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { browserName, isMobile } from 'react-device-detect';
 
 interface Props {
   State: boolean;
@@ -79,7 +80,7 @@ const Index: React.FC<Props> = ({
           </button>
         </div>
         <div
-          className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${
+          className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${isMobile && browserName === 'safari' ? "pb-11" : "pb-2"} ${
             CheckPhone === "Phone"
               ? "h-[calc(100vh-54px)]"
               : "h-[calc(100vh-54px)]"

@@ -14,6 +14,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Data } from "../../../JSON/Data";
 import { motion } from "framer-motion";
+import { browserName, isMobile } from 'react-device-detect';
 
 const Navigation: React.FC = () => {
   const Router = useRouter();
@@ -171,7 +172,7 @@ const Navigation: React.FC = () => {
               </button>
             </div>
             <div
-              className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${
+              className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${isMobile && browserName === 'safari' ? "pb-11" : "pb-2"} ${
                 CheckPhone === "Phone"
                   ? "h-[calc(100vh-54px)]"
                   : "h-[calc(100vh-54px)]"
