@@ -171,7 +171,7 @@ const Navigation: React.FC = () => {
               </button>
             </div>
             <div
-              className={`w-full md:h-[calc(100vh-100px)] ${
+              className={`w-full md:h-[calc(100vh-100px)] pb-safe pt-safe ${
                 CheckPhone === "Phone"
                   ? "h-[calc(100vh-54px)] pb-8 "
                   : "h-[calc(100vh-54px)]"

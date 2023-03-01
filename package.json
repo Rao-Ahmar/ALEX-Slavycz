@@ -16,7 +16,8 @@
     "react-modern-drawer": "^1.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tailwindcss-safe-area": "^0.2.2"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
